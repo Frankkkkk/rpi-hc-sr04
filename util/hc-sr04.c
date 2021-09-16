@@ -86,7 +86,7 @@ int main (int argc, char *argv[])
 	pinMode(TRIG, OUTPUT);
 	pinMode(ECHO, INPUT);
 
-	int num_tries = 800;
+	int num_tries = 400;
 	float *tries = malloc(sizeof(*tries) * num_tries);
 	for(int i = 0; i < num_tries; i++) {
 		float d = 0;
